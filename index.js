@@ -7,69 +7,69 @@
 // Remember that i++ mean "increment"
 // it takes the variable i up by 1.
 
-let i = 0;
+// let i = 0;
 
-console.log('**** Incrementing i ****');
-console.log(`i starts as ${i}`);
+// console.log('**** Incrementing i ****');
+// console.log(`i starts as ${i}`);
 
-i++;
-console.log(`i++ brings i to ${i}`);
+// i++;
+// console.log(`i++ brings i to ${i}`);
 
-i++;
-console.log(`i++, again, brings i to ${i}`);
+// i++;
+// console.log(`i++, again, brings i to ${i}`);
 
-// TODO: increment i to 3
-i++;
-console.log(`i++, again, brings i to ${i}`);
+// // TODO: increment i to 3
+// i++;
+// console.log(`i++, again, brings i to ${i}`);
 
-// TODO: increment i to 4
-i++;
-console.log(`i++, again, brings i to ${i}`);
+// // TODO: increment i to 4
+// i++;
+// console.log(`i++, again, brings i to ${i}`);
 
-// TODO: increment i to 5
-i++;
-console.log(`i++, again, brings i to ${i}`);
+// // TODO: increment i to 5
+// i++;
+// console.log(`i++, again, brings i to ${i}`);
 
-// TODO: increment i to 10.
-// Then log out that value to the console.
-i++;
-console.log(`i++, again, brings i to ${i}`);
-i++;
-console.log(`i++, again, brings i to ${i}`);
-i++;
-console.log(`i++, again, brings i to ${i}`);
-i++;
-console.log(`i++, again, brings i to ${i}`);
-i++;
-console.log(`i++, again, brings i to ${i}`);
+// // TODO: increment i to 10.
+// // Then log out that value to the console.
+// i++;
+// console.log(`i++, again, brings i to ${i}`);
+// i++;
+// console.log(`i++, again, brings i to ${i}`);
+// i++;
+// console.log(`i++, again, brings i to ${i}`);
+// i++;
+// console.log(`i++, again, brings i to ${i}`);
+// i++;
+// console.log(`i++, again, brings i to ${i}`);
 
-// Part 2
-// For loops can take care of this in just 3 lines!
-console.log('**** Introducing the for-loop! ****');
-// TODO: change the for loop to iterate up to 10.
-for (let i = 0; i < 11; i++) {
-  console.log(`Now, i is ${i}.`);
-}
+// // Part 2
+// // For loops can take care of this in just 3 lines!
+// console.log('**** Introducing the for-loop! ****');
+// // TODO: change the for loop to iterate up to 10.
+// for (let i = 0; i < 11; i++) {
+//   console.log(`Now, i is ${i}.`);
+// }
 
-// TODO: make a for loop that counts up to 25.
-for (let i = 0; i < 26; i++) {
-  console.log(`Now, i is ${i}.`);
-}
+// // TODO: make a for loop that counts up to 25.
+// for (let i = 0; i < 26; i++) {
+//   console.log(`Now, i is ${i}.`);
+// }
 
-// TODO: make a for loop that counts up to 50.
-for (let i = 0; i < 51; i++) {
-  console.log(`Now, i is ${i}.`);
-}
+// // TODO: make a for loop that counts up to 50.
+// for (let i = 0; i < 51; i++) {
+//   console.log(`Now, i is ${i}.`);
+// }
 
-// TODO: make a for loop that counts up to 100.
-for (let i = 0; i < 101; i++) {
-  console.log(`Now, i is ${i}.`);
-}
+// // TODO: make a for loop that counts up to 100.
+// for (let i = 0; i < 101; i++) {
+//   console.log(`Now, i is ${i}.`);
+// }
 
-// TODO: make a for loop that counts up to 1001.
-for (let i = 0; i < 1002; i++) {
-  console.log(`Now, i is ${i}.`);
-}
+// // TODO: make a for loop that counts up to 1001.
+// for (let i = 0; i < 1002; i++) {
+//   console.log(`Now, i is ${i}.`);
+// }
 
 // TODO: Add, Commit, Push!
 // TODO: Comment out the above so that they don't bother you as you do the rest of the assignment.
@@ -119,14 +119,33 @@ for (let i = 0; i < 4; i++) {
 }
 
 // TODO: make a new array of zooAnimals. Use a loop to print them all to the console.
+let animals1 = ['tiger', 'elephant', 'zebra', 'giraffe', 'bear'];
+for (let i = 0; i < 4; i++) {
+  console.log(animals1[i]);
+}
 // Bonus: Can you think of a use for array.length in the for loop?
+for (let i = 0; i < animals1.length; i++) {
+  console.log(animals1[i]);
+}
 
 // TODO: make a new array of sports teams. Use a loop to print them all to the console.
+let teams = ['bulls', 'grizzlies', 'celtics', 'pistons', 'spurs'];
+for (let i = 0; i < 5; i++) {
+  console.log(teams[i]);
+}
 // Bonus: Can you think of a use for array.length in the for loop?
-
+for (let i = 0; i < teams.length; i++) {
+  console.log(teams[i]);
+}
 // TODO: make a new array of anything else. Use a loop to print them all to the console.
+let foodType = ['pizza', 'tacos', 'burger', 'steak'];
+for (let i = 0; i < 4; i++) {
+  console.log(foodType[i]);
+}
 // Bonus: Can you think of a use for array.length in the for loop?
-
+for (let i = 0; i < foodType.length; i++) {
+  console.log(foodType[i]);
+}
 // TODO: Add, Commit, Push!
 
 // Part 4: Setting values
