@@ -150,17 +150,20 @@
 
 // Part 4: Setting values
 console.log('**** (Re-)Setting values ****');
-// Example: we can set all the values in the array if we want. Let's say we really like cats...
-for (let i = 0; i < animals.length; i++) {
-  animals[i] = 'cat';
-}
-console.log(animals);
+// // Example: we can set all the values in the array if we want. Let's say we really like cats...
+// for (let i = 0; i < animals.length; i++) {
+//   animals[i] = 'cat';
+// }
+// console.log(animals);
 
 // TODO: Use a for loop to reset the tic-tac-toe board,
 // so all the values are "-".
-let board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X'];
-console.log(board);
-
+// let board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X'];
+// console.log(board);
+// for (let i = 0; i < board.length; i++) {
+//   board[i] = '-';
+// }
+// console.log(board);
 // TODO: Use a for loop to reset the battlship board so all the values are open ocean. ("o")
 board = [
   'o',
@@ -181,7 +184,10 @@ board = [
   'o',
 ];
 console.log(board);
-
+for (let i = 0; i < board.length; i++) {
+  board[i] = 'o';
+}
+console.log(board);
 // TODO: Add, Commit, Push!
 
 // Part 5: resetting specific values
