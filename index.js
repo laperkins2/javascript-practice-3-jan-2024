@@ -111,41 +111,41 @@
 
 // That's right: arrays!
 
-let animals = ['aardvark', 'buffalo', 'cat', 'dingo'];
-console.log('**** Animals ****');
-// Let use console.log to print each item in order.
-for (let i = 0; i < 4; i++) {
-  console.log(animals[i]);
-}
+// let animals = ['aardvark', 'buffalo', 'cat', 'dingo'];
+// console.log('**** Animals ****');
+// // Let use console.log to print each item in order.
+// for (let i = 0; i < 4; i++) {
+//   console.log(animals[i]);
+// }
 
-// TODO: make a new array of zooAnimals. Use a loop to print them all to the console.
-let animals1 = ['tiger', 'elephant', 'zebra', 'giraffe', 'bear'];
-for (let i = 0; i < 4; i++) {
-  console.log(animals1[i]);
-}
-// Bonus: Can you think of a use for array.length in the for loop?
-for (let i = 0; i < animals1.length; i++) {
-  console.log(animals1[i]);
-}
+// // TODO: make a new array of zooAnimals. Use a loop to print them all to the console.
+// let animals1 = ['tiger', 'elephant', 'zebra', 'giraffe', 'bear'];
+// for (let i = 0; i < 4; i++) {
+//   console.log(animals1[i]);
+// }
+// // Bonus: Can you think of a use for array.length in the for loop?
+// for (let i = 0; i < animals1.length; i++) {
+//   console.log(animals1[i]);
+// }
 
-// TODO: make a new array of sports teams. Use a loop to print them all to the console.
-let teams = ['bulls', 'grizzlies', 'celtics', 'pistons', 'spurs'];
-for (let i = 0; i < 5; i++) {
-  console.log(teams[i]);
-}
-// Bonus: Can you think of a use for array.length in the for loop?
-for (let i = 0; i < teams.length; i++) {
-  console.log(teams[i]);
-}
-// TODO: make a new array of anything else. Use a loop to print them all to the console.
-let foodType = ['pizza', 'tacos', 'burger', 'steak'];
-for (let i = 0; i < 4; i++) {
-  console.log(foodType[i]);
-}
-// Bonus: Can you think of a use for array.length in the for loop?
-for (let i = 0; i < foodType.length; i++) {
-  console.log(foodType[i]);
-}
+// // TODO: make a new array of sports teams. Use a loop to print them all to the console.
+// let teams = ['bulls', 'grizzlies', 'celtics', 'pistons', 'spurs'];
+// for (let i = 0; i < 5; i++) {
+//   console.log(teams[i]);
+// }
+// // Bonus: Can you think of a use for array.length in the for loop?
+// for (let i = 0; i < teams.length; i++) {
+//   console.log(teams[i]);
+// }
+// // TODO: make a new array of anything else. Use a loop to print them all to the console.
+// let foodType = ['pizza', 'tacos', 'burger', 'steak'];
+// for (let i = 0; i < 4; i++) {
+//   console.log(foodType[i]);
+// }
+// // Bonus: Can you think of a use for array.length in the for loop?
+// for (let i = 0; i < foodType.length; i++) {
+//   console.log(foodType[i]);
+// }
 // TODO: Add, Commit, Push!
 
 // Part 4: Setting values
