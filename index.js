@@ -7,69 +7,67 @@
 // Remember that i++ mean "increment"
 // it takes the variable i up by 1.
 
-// let i = 0;
+let i = 0;
 
 // console.log('**** Incrementing i ****');
-// console.log(`i starts as ${i}`);
+console.log(`i starts as ${i}`);
 
-// i++;
-// console.log(`i++ brings i to ${i}`);
+i++;
+console.log(`i++ brings i to ${i}`);
 
-// i++;
-// console.log(`i++, again, brings i to ${i}`);
+i++;
+console.log(`i++, again, brings i to ${i}`);
 
 // // TODO: increment i to 3
-// i++;
-// console.log(`i++, again, brings i to ${i}`);
+i++;
+console.log(`i++, again, brings i to ${i}`);
 
 // // TODO: increment i to 4
-// i++;
-// console.log(`i++, again, brings i to ${i}`);
+i++;
+console.log(`i++, again, brings i to ${i}`);
 
-// // TODO: increment i to 5
-// i++;
-// console.log(`i++, again, brings i to ${i}`);
+// TODO: increment i to 5
+i++;
+console.log(`i++, again, brings i to ${i}`);
 
-// // TODO: increment i to 10.
-// // Then log out that value to the console.
-// i++;
-// console.log(`i++, again, brings i to ${i}`);
-// i++;
-// console.log(`i++, again, brings i to ${i}`);
-// i++;
-// console.log(`i++, again, brings i to ${i}`);
-// i++;
-// console.log(`i++, again, brings i to ${i}`);
-// i++;
-// console.log(`i++, again, brings i to ${i}`);
+// TODO: increment i to 10.
+// Then log out that value to the console.
+i++;
+console.log(`i++, again, brings i to ${i}`);
+i++;
+console.log(`i++, again, brings i to ${i}`);
+i++;
+console.log(`i++, again, brings i to ${i}`);
+i++;
+console.log(`i++, again, brings i to ${i}`);
+i++;
+console.log(`i++, again, brings i to ${i}`);
 
-// // Part 2
-// // For loops can take care of this in just 3 lines!
-// console.log('**** Introducing the for-loop! ****');
-// // TODO: change the for loop to iterate up to 10.
-// for (let i = 0; i < 11; i++) {
-//   console.log(`Now, i is ${i}.`);
-// }
+// Part 2
+// For loops can take care of this in just 3 lines!
+console.log('**** Introducing the for-loop! ****');
+// TODO: change the for loop to iterate up to 10.
+for (let i = 0; i < 11; i++) {
+  console.log(`Now, i is ${i}.`);
+}
 
-// // TODO: make a for loop that counts up to 25.
-// for (let i = 0; i < 26; i++) {
-//   console.log(`Now, i is ${i}.`);
-// }
+// TODO: make a for loop that counts up to 25.
+for (let i = 0; i < 26; i++) {
+  console.log(`Now, i is ${i}.`);
+}
 
-// // TODO: make a for loop that counts up to 50.
-// for (let i = 0; i < 51; i++) {
-//   console.log(`Now, i is ${i}.`);
-// }
-
-// // TODO: make a for loop that counts up to 100.
-// for (let i = 0; i < 101; i++) {
-//   console.log(`Now, i is ${i}.`);
-// }
-
-// // TODO: make a for loop that counts up to 1001.
-// for (let i = 0; i < 1002; i++) {
-//   console.log(`Now, i is ${i}.`);
-// }
+// TODO: make a for loop that counts up to 50.
+for (let i = 0; i < 51; i++) {
+  console.log(`Now, i is ${i}.`);
+}
+// TODO: make a for loop that counts up to 100.
+for (let i = 0; i < 101; i++) {
+  console.log(`Now, i is ${i}.`);
+}
+// TODO: make a for loop that counts up to 1001.
+for (let i = 0; i < 1002; i++) {
+  console.log(`Now, i is ${i}.`);
+}
 
 // TODO: Add, Commit, Push!
 // TODO: Comment out the above so that they don't bother you as you do the rest of the assignment.
@@ -111,115 +109,111 @@
 
 // That's right: arrays!
 
-// let animals = ['aardvark', 'buffalo', 'cat', 'dingo'];
-// console.log('**** Animals ****');
-// // Let use console.log to print each item in order.
-// for (let i = 0; i < 4; i++) {
-//   console.log(animals[i]);
-// }
-
-// // TODO: make a new array of zooAnimals. Use a loop to print them all to the console.
-// let animals1 = ['tiger', 'elephant', 'zebra', 'giraffe', 'bear'];
-// for (let i = 0; i < 4; i++) {
-//   console.log(animals1[i]);
-// }
-// // Bonus: Can you think of a use for array.length in the for loop?
-// for (let i = 0; i < animals1.length; i++) {
-//   console.log(animals1[i]);
-// }
-
-// // TODO: make a new array of sports teams. Use a loop to print them all to the console.
-// let teams = ['bulls', 'grizzlies', 'celtics', 'pistons', 'spurs'];
-// for (let i = 0; i < 5; i++) {
-//   console.log(teams[i]);
-// }
-// // Bonus: Can you think of a use for array.length in the for loop?
-// for (let i = 0; i < teams.length; i++) {
-//   console.log(teams[i]);
-// }
-// // TODO: make a new array of anything else. Use a loop to print them all to the console.
-// let foodType = ['pizza', 'tacos', 'burger', 'steak'];
-// for (let i = 0; i < 4; i++) {
-//   console.log(foodType[i]);
-// }
-// // Bonus: Can you think of a use for array.length in the for loop?
-// for (let i = 0; i < foodType.length; i++) {
-//   console.log(foodType[i]);
-// }
+let animals = ['aardvark', 'buffalo', 'cat', 'dingo'];
+console.log('**** Animals ****');
+// Let use console.log to print each item in order.
+for (let i = 0; i < 4; i++) {
+  console.log(animals[i]);
+}
+// TODO: make a new array of zooAnimals. Use a loop to print them all to the console.
+let animals1 = ['tiger', 'elephant', 'zebra', 'giraffe', 'bear'];
+for (let i = 0; i < 4; i++) {
+  console.log(animals1[i]);
+}
+// Bonus: Can you think of a use for array.length in the for loop?
+for (let i = 0; i < animals1.length; i++) {
+  console.log(animals1[i]);
+}
+// TODO: make a new array of sports teams. Use a loop to print them all to the console.
+let teams = ['bulls', 'grizzlies', 'celtics', 'pistons', 'spurs'];
+for (let i = 0; i < 5; i++) {
+  console.log(teams[i]);
+}
+// Bonus: Can you think of a use for array.length in the for loop?
+for (let i = 0; i < teams.length; i++) {
+  console.log(teams[i]);
+}
+// TODO: make a new array of anything else. Use a loop to print them all to the console.
+let foodType = ['pizza', 'tacos', 'burger', 'steak'];
+for (let i = 0; i < 4; i++) {
+  console.log(foodType[i]);
+}
+// Bonus: Can you think of a use for array.length in the for loop?
+for (let i = 0; i < foodType.length; i++) {
+  console.log(foodType[i]);
+}
 // TODO: Add, Commit, Push!
 
 // Part 4: Setting values
 console.log('**** (Re-)Setting values ****');
-// // Example: we can set all the values in the array if we want. Let's say we really like cats...
-// for (let i = 0; i < animals.length; i++) {
-//   animals[i] = 'cat';
-// }
-// console.log(animals);
-
+// Example: we can set all the values in the array if we want. Let's say we really like cats...
+for (let i = 0; i < animals.length; i++) {
+  animals[i] = 'cat';
+}
+console.log(animals);
 // TODO: Use a for loop to reset the tic-tac-toe board,
 // so all the values are "-".
-// let board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X'];
-// console.log(board);
-// for (let i = 0; i < board.length; i++) {
-//   board[i] = '-';
-// }
-// console.log(board);
+let board = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X'];
+console.log(board);
+for (let i = 0; i < board.length; i++) {
+  board[i] = '-';
+}
+console.log(board);
 // TODO: Use a for loop to reset the battlship board so all the values are open ocean. ("o")
-// board = [
-//   'o',
-//   'D',
-//   'D',
-//   'o',
-//   'S',
-//   'o',
-//   'o',
-//   'o',
-//   'S',
-//   'C',
-//   'C',
-//   'C',
-//   'S',
-//   'o',
-//   'o',
-//   'o',
-// ];
-// console.log(board);
-// for (let i = 0; i < board.length; i++) {
-//   board[i] = 'o';
-// }
-// console.log(board);
+board = [
+  'o',
+  'D',
+  'D',
+  'o',
+  'S',
+  'o',
+  'o',
+  'o',
+  'S',
+  'C',
+  'C',
+  'C',
+  'S',
+  'o',
+  'o',
+  'o',
+];
+console.log(board);
+for (let i = 0; i < board.length; i++) {
+  board[i] = 'o';
+}
+console.log(board);
 // TODO: Add, Commit, Push!
 
 // Part 5: resetting specific values
 
-// board = [
-//   'o',
-//   'D',
-//   'D',
-//   'o',
-//   'S',
-//   'o',
-//   'o',
-//   'o',
-//   'S',
-//   'C',
-//   'C',
-//   'C',
-//   'S',
-//   'o',
-//   'o',
-//   'o',
-// ];
-
-// // Example: We can use a while loop in a for loop.
-// // Just nest them and make sure you
-// // open and close your {} brackets.
-// for (let i = 0; i < board.length; i++) {
-//   if (board[i] === 'S') {
-//     board[i] = 'X';
-//   }
-// }
-// console.log(board);
+board = [
+  'o',
+  'D',
+  'D',
+  'o',
+  'S',
+  'o',
+  'o',
+  'o',
+  'S',
+  'C',
+  'C',
+  'C',
+  'S',
+  'o',
+  'o',
+  'o',
+];
+// Example: We can use a while loop in a for loop.
+// Just nest them and make sure you
+// open and close your {} brackets.
+for (let i = 0; i < board.length; i++) {
+  if (board[i] === 'S') {
+    board[i] = 'X';
+  }
+}
+console.log(board);
 
 // Let's sink the Submarine,
 // but only the Submarine.
@@ -266,36 +260,33 @@ console.log('**** (Re-)Setting values ****');
 // Think...
 
 // Did you get it?
+console.log('**** Setting specific items ****');
+for (let i = 0; i < board.length; i++) {
+  if (board[i] === 'S') {
+    board[i] = 'X';
+  }
+}
+console.log(board);
+//  TODO: Sink the Destroyer (D)
 
-// console.log('**** Setting specific items ****');
-// for (let i = 0; i < board.length; i++) {
-//   if (board[i] === 'S') {
-//     board[i] = 'X';
-//   }
-// }
-// console.log(board);
-
-// TODO: Sink the Destroyer (D)
-
-// for (let i = 0; i < board.length; i++) {
-//   if (board[i] === 'D') {
-//     board[i] = 'X';
-//   }
-// }
-// console.log(board);
-// // TODO: Sink the Cruiser (C)
-
-// for (let i = 0; i < board.length; i++) {
-//   if (board[i] === 'C') {
-//     board[i] = 'X';
-//   }
-// }
-// console.log(board);
-// // TODO: reset the board to open ocean again.
-// for (let i = 0; i < board.length; i++) {
-//   board[i] = 'o';
-// }
-// console.log(board);
+for (let i = 0; i < board.length; i++) {
+  if (board[i] === 'D') {
+    board[i] = 'X';
+  }
+}
+console.log(board);
+// TODO: Sink the Cruiser (C)
+for (let i = 0; i < board.length; i++) {
+  if (board[i] === 'C') {
+    board[i] = 'X';
+  }
+}
+console.log(board);
+// TODO: reset the board to open ocean again.
+for (let i = 0; i < board.length; i++) {
+  board[i] = 'o';
+}
+console.log(board);
 // Bonus: Think of a new application of what we did today. Write a TODO for yourself. It should be similar to what we did, but add your own twist. Try it out, and lets us know how it when with a quick message in the Slack channel!
 
 // TODO make a juicing list and add missing items.
@@ -306,12 +297,12 @@ console.log(
 );
 juiceList.push('oranges');
 console.log;
-// //
-// for (let i = 0; i < juiceList.length; i++) {
-//   console.log(juiceList[i]);
-// }
 
-// console.log(`I forgot to add ${juiceList[4]} to my juicing list.`);
+for (let i = 0; i < juiceList.length; i++) {
+  console.log(juiceList[i]);
+}
+
+console.log(`I forgot to add ${juiceList[4]} to my juicing list.`);
 // replace ginger
 for (let i = 0; i < juiceList.length; i++) {
   if (juiceList[i] === 'ginger') {
