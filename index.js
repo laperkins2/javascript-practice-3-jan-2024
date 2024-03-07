@@ -165,55 +165,61 @@ console.log('**** (Re-)Setting values ****');
 // }
 // console.log(board);
 // TODO: Use a for loop to reset the battlship board so all the values are open ocean. ("o")
-board = [
-  'o',
-  'D',
-  'D',
-  'o',
-  'S',
-  'o',
-  'o',
-  'o',
-  'S',
-  'C',
-  'C',
-  'C',
-  'S',
-  'o',
-  'o',
-  'o',
-];
-console.log(board);
-for (let i = 0; i < board.length; i++) {
-  board[i] = 'o';
-}
-console.log(board);
+// board = [
+//   'o',
+//   'D',
+//   'D',
+//   'o',
+//   'S',
+//   'o',
+//   'o',
+//   'o',
+//   'S',
+//   'C',
+//   'C',
+//   'C',
+//   'S',
+//   'o',
+//   'o',
+//   'o',
+// ];
+// console.log(board);
+// for (let i = 0; i < board.length; i++) {
+//   board[i] = 'o';
+// }
+// console.log(board);
 // TODO: Add, Commit, Push!
 
 // Part 5: resetting specific values
 
-board = [
-  'o',
-  'D',
-  'D',
-  'o',
-  'S',
-  'o',
-  'o',
-  'o',
-  'S',
-  'C',
-  'C',
-  'C',
-  'S',
-  'o',
-  'o',
-  'o',
-];
+// board = [
+//   'o',
+//   'D',
+//   'D',
+//   'o',
+//   'S',
+//   'o',
+//   'o',
+//   'o',
+//   'S',
+//   'C',
+//   'C',
+//   'C',
+//   'S',
+//   'o',
+//   'o',
+//   'o',
+// ];
 
-// Example: We can use a while loop in a for loop.
-// Just nest them and make sure you
-// open and close your {} brackets.
+// // Example: We can use a while loop in a for loop.
+// // Just nest them and make sure you
+// // open and close your {} brackets.
+// for (let i = 0; i < board.length; i++) {
+//   if (board[i] === 'S') {
+//     board[i] = 'X';
+//   }
+// }
+// console.log(board);
 
 // Let's sink the Submarine,
 // but only the Submarine.
@@ -261,18 +267,55 @@ board = [
 
 // Did you get it?
 
-console.log('**** Setting specific items ****');
-for (let i = 0; i < board.length; i++) {
-  if (board[i] === 'S') {
-    board[i] = 'X';
-  }
-}
-console.log(board);
+// console.log('**** Setting specific items ****');
+// for (let i = 0; i < board.length; i++) {
+//   if (board[i] === 'S') {
+//     board[i] = 'X';
+//   }
+// }
+// console.log(board);
 
 // TODO: Sink the Destroyer (D)
 
-// TODO: Sink the Cruiser (C)
+// for (let i = 0; i < board.length; i++) {
+//   if (board[i] === 'D') {
+//     board[i] = 'X';
+//   }
+// }
+// console.log(board);
+// // TODO: Sink the Cruiser (C)
 
-// TODO: reset the board to open ocean again.
-
+// for (let i = 0; i < board.length; i++) {
+//   if (board[i] === 'C') {
+//     board[i] = 'X';
+//   }
+// }
+// console.log(board);
+// // TODO: reset the board to open ocean again.
+// for (let i = 0; i < board.length; i++) {
+//   board[i] = 'o';
+// }
+// console.log(board);
 // Bonus: Think of a new application of what we did today. Write a TODO for yourself. It should be similar to what we did, but add your own twist. Try it out, and lets us know how it when with a quick message in the Slack channel!
+
+// TODO make a juicing list and add missing items.
+let juiceList = ['apples', 'carrots', 'kale', 'ginger'];
+console.log(juiceList);
+console.log(
+  '****I forgot to add oranges in my list, so I need to push it into my array****'
+);
+juiceList.push('oranges');
+console.log;
+// //
+// for (let i = 0; i < juiceList.length; i++) {
+//   console.log(juiceList[i]);
+// }
+
+// console.log(`I forgot to add ${juiceList[4]} to my juicing list.`);
+// replace ginger
+for (let i = 0; i < juiceList.length; i++) {
+  if (juiceList[i] === 'ginger') {
+    juiceList[i] = 'lime';
+  }
+}
+console.log(juiceList);
