@@ -105,6 +105,16 @@ console.log(`The total number of letters is: ${total}`);
 let average = total / animals.length;
 console.log(`The average length of the word is: ${average}`);
 
+// You can also add up numbers
+total = 0;
+let prices = [1.01, 10.99, 4.32, 1000.03, 4.0];
+// TODO: add up all the prices in the array "prices".
+
+for (let i = 0; i < prices.length; i++) {
+  total = total + prices[i];
+}
+console.log(`The total price is: ${total}`);
+
 // TODO: copy your arrays from day-1.
 
 // find the total characters in each.
@@ -115,6 +125,9 @@ for (let i = 0; i < animals1.length; i++) {
   total = total + wordLength;
 }
 console.log(`The total number of letters is: ${total}`);
+average = total / animals1.length;
+console.log(`The average length of the word is: ${average}`);
+//
 let teams = ['bulls', 'grizzlies', 'celtics', 'pistons', 'spurs'];
 total = 0;
 for (let i = 0; i < teams.length; i++) {
@@ -122,6 +135,9 @@ for (let i = 0; i < teams.length; i++) {
   total = total + wordLength;
 }
 console.log(`The total number of letters is: ${total}`);
+average = total / teams.length;
+console.log(`The average length of the word is: ${average}`);
+//
 let foodType = ['pizza', 'tacos', 'burger', 'steak'];
 total = 0;
 for (let i = 0; i < foodType.length; i++) {
@@ -129,6 +145,9 @@ for (let i = 0; i < foodType.length; i++) {
   total = total + wordLength;
 }
 console.log(`The total number of letters is: ${total}`);
+average = total / foodType.length;
+console.log(`The average length of the word is: ${average}`);
+//
 board = [
   'o',
   'D',
@@ -153,5 +172,7 @@ for (let i = 0; i < board.length; i++) {
   total = total + wordLength;
 }
 console.log(`The total number of letters is: ${total}`);
+average = total / board.length;
+console.log(`The average length of the word is: ${average}`);
 
 // find the average length of each word.
