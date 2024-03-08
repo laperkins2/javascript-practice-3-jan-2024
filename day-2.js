@@ -46,7 +46,7 @@ for (let i = 0; i < 11; i++) {
 }
 console.log(`sum of numbers 1-10: ${sum}`);
 
-// TODO: add the numbers from 0 to
+// TODO: add the numbers from 0 to 25
 sum = 0;
 for (let i = 0; i < 26; i++) {
   sum = sum + i;
